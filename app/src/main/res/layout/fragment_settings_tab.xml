@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingsTab">
+    tools:context=".SettingsTab"
+    android:background="@color/aqua">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -13,6 +14,35 @@
         android:text="Settings"
         android:gravity="center"
         android:textColor="@color/black"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:layout_marginBottom="150dp"
+        android:typeface="normal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Music"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/On_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="On"
+        android:layout_gravity="center"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/orange"/>
+
+    <Button
+        android:id="@+id/Off_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/orange"
+        android:text="Off" />
 
 </FrameLayout>
