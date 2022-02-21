@@ -3,13 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Enzer/AndroidStudioProjects/Oiling/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/Enzer/AndroidStudioProjects/Oiling/app/src/main/res/layout/fragment_battle_tab.xml" value="0.36186594202898553" />
-        <entry key="..\:/Users/Enzer/AndroidStudioProjects/Oiling/app/src/main/res/layout/fragment_mine_tab.xml" value="0.36186594202898553" />
-        <entry key="..\:/Users/Enzer/AndroidStudioProjects/Oiling/app/src/main/res/layout/fragment_pvp_tab.xml" value="0.36186594202898553" />
-        <entry key="..\:/Users/Enzer/AndroidStudioProjects/Oiling/app/src/main/res/layout/fragment_settings_tab.xml" value="0.36186594202898553" />
-        <entry key="..\:/Users/Enzer/AndroidStudioProjects/Oiling/app/src/main/res/layout/fragment_shop_tab.xml" value="0.36186594202898553" />
-        <entry key="..\:/Users/Enzer/AndroidStudioProjects/Oiling/app/src/main/res/layout/fragment_weaponary_tab.xml" value="0.36186594202898553" />
+        <entry key="..\:/Users/Endie/Desktop/Oil/app/src/main/res/layout/aa.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/Endie/Desktop/Oil/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Endie/Desktop/Oil/app/src/main/res/layout/fragment_pvp_tab.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/Endie/Desktop/Oil/app/src/main/res/layout/fragment_settings_tab.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/Endie/Desktop/Oil/app/src/main/res/layout/fragment_shop_tab.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/Endie/Desktop/Oil/app/src/main/res/layout/fragment_weaponary_tab.xml" value="0.3307291666666667" />
       </map>
     </option>
   </component>

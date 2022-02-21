@@ -19,31 +19,31 @@
             android:id="@+id/Shop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Shop" />
+            android:text="@string/shop" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/Weaponary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Weaponary" />
+            android:text="@string/string_weaponary" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/Battle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Battle" />
+            android:text="@string/battle" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/PvP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PvP" />
+            android:text="@string/pvp" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/Settings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Settings" />
+            android:text="@string/settings" />
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager.widget.ViewPager
@@ -52,5 +52,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/tabLayout"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"/>
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
