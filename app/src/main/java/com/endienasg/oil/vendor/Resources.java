@@ -4,35 +4,98 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Resources {
-    private  String name;
-    private int resistance_level;
-    private double furnale_temp;
+    public String name;
+    public int resistance_level;
+    public double furnale_temp;
+    public int dollar;
+    public double healthpoint;
+    public double weight;
+    public static List<Resources> resourcesList;
+
+    public List<Integer> list;
+    public static int number1 = 1;
+    public static int number2 = 2;
+    public static int number3 = 3;
 
 
 
-    private static Resources Coal;
-    private static Resources Iron;
-    private static Resources Aluminium;
-    private int dollar;
-    private double healthpoint;
-    private double weight;
+    public static Resources Coal = new Resources("Coal",2,2300,12,2,1200);
+    public static Resources Iron = new Resources("Iron",12,1538,60,120,900);
+    public static Resources Aluminium = new Resources("Aluminium",4,660.3,120,50,200);
+
+    /*
+    public static List Number(){
+        List list = new ArrayList();
+        list.add(number1);
+        list.add(number2);
+        list.add(number3);
+        return list;
+    }*/
+
+    public Resources(String name,int resistance_level,double furnale_temp,int dollar, double healthpoint, double weight){
+        this.name = name;
+        this.resistance_level = resistance_level;
+        this.furnale_temp = furnale_temp;
+        this.dollar = dollar;
+        this.healthpoint = healthpoint;
+        this.weight = weight;
+
+
+
+    }
 
     public static List<Resources> vai() {
         List<Resources> resourcesList = new ArrayList<>();
+
+
         resourcesList.add(Coal);
         resourcesList.add(Iron);
         resourcesList.add(Aluminium);
-        System.out.println(resourcesList);
-
+        /*
+        System.out.println(resourcesList.get(0).name + " имя объекта");
+        System.out.println(resourcesList.get(0).resistance_level + " прочность(сопротивление) объекта");
+        System.out.println(resourcesList.get(0).furnale_temp + " Температура плавления объекта");
+        System.out.println(resourcesList.get(0).dollar + " Цена объекта");
+        System.out.println(resourcesList.get(0).healthpoint + " прочность(хп) объекта");
+        System.out.println(resourcesList.get(0).weight + " вес объекта");*/
         return resourcesList;
     }
-    public void setName(String name){
-        this.name = name;
+    /*int getNumber(int pos){
+        return list.get(pos);
+    }*/
+
+    public static Resources getNumber(int index){
+        return resourcesList.get(index);
     }
-    public static void main(String[] args){
-        Coal.setName("Coal");
-        Iron.setName("Iron");
-        Aluminium.setName("Aluminium");
+
+    //public void setName(String name){
+        //this.name = name;
+    //}
+/*
+    public void resistance(int resistance_level){
+        this.resistance_level = resistance_level;
+    }
+
+    public void furnale_temp(double furnace_temp){
+        this.furnale_temp = furnace_temp;
+    }
+
+    public void sell(int dollar){
+        this.dollar = dollar;
+    }
+    public void hp(double healthpoint){
+        this.healthpoint = healthpoint;
+    }
+    public void weight (double weight){
+        this.weight = weight;
+    }
+    public String toString(){
+        return name;
+    }
+*/
+    /*Coal.setName("Coal");
+        //Iron.setName("Iron");
+        //Aluminium.setName("Aluminium");
 
         Coal.resistance(2);
         Iron.resistance(12);
@@ -53,27 +116,5 @@ public class Resources {
         //Weight
         Coal.weight(1200);
         Iron.weight(900);
-        Aluminium.weight(200);
-
-
-    }
-    public void resistance(int resistance_level){
-        this.resistance_level = resistance_level;
-    }
-
-    public void furnale_temp(double furnace_temp){
-        this.furnale_temp = furnace_temp;
-    }
-
-    public void sell(int dollar){
-        this.dollar = dollar;
-    }
-    public void hp(double healthpoint){
-        this.healthpoint = healthpoint;
-    }
-    public void weight (double weight){
-        this.weight = weight;
-    }
-
-
+        Aluminium.weight(200);*/
 }
