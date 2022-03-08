@@ -10,9 +10,9 @@
         android:id="@+id/shop_tab"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Shop"
         android:gravity="center"
+        android:text="@string/shop"
         android:textColor="@color/black"
-        android:textSize="30dp"/>
+        android:textSize="30sp" />
 
 </FrameLayout>
